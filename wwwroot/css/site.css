@@ -1,71 +1,46 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+﻿body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 50px;
+    margin: 0;
+    text-align: center;
 }
 
-/* Provide sufficient contrast against white background */
+.flexHeader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
 a {
-  color: #0366d6;
+    color: #00B7FF;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+body select {
+    padding: 10px 70px 10px 13px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    background: url("https://i.ibb.co/b7xjLrB/selectbox-arrow.png") right center no-repeat;
+    background-color: #fff;
+    color: #444444;
+    line-height: 16px;
+    appearance: none;
+    /* this is must */ -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    /* body select.select_box option */
+    body select option {
+        padding: 0 4px;
+    }
+
+/* for Edge */
+select::-ms-expand {
+    display: none;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  font-size: 14px;
-}
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
-}
-
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+select:disabled::-ms-expand {
+    background: #f60;
 }
