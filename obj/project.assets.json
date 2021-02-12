@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\remyg\\.nuget\\packages\\": {}
+    "C:\\Users\\anett\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\remyg\\Programming\\Applications\\IoTDeviceInfoVisualisationApp\\IoTDeviceInfoVisualisationApp.csproj",
+      "projectUniqueName": "C:\\Users\\anett\\source\\repos\\IoT\\IoTLab\\IoTDeviceInfoVisualisationApp.csproj",
       "projectName": "IoTDeviceInfoVisualisationApp",
-      "projectPath": "C:\\Users\\remyg\\Programming\\Applications\\IoTDeviceInfoVisualisationApp\\IoTDeviceInfoVisualisationApp.csproj",
-      "packagesPath": "C:\\Users\\remyg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\remyg\\Programming\\Applications\\IoTDeviceInfoVisualisationApp\\obj\\",
+      "projectPath": "C:\\Users\\anett\\source\\repos\\IoT\\IoTLab\\IoTDeviceInfoVisualisationApp.csproj",
+      "packagesPath": "C:\\Users\\anett\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\anett\\source\\repos\\IoT\\IoTLab\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\remyg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\anett\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
